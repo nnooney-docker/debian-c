@@ -11,6 +11,7 @@ RUN apt update && apt install -y -q --no-install-recommends \
   curl \
   gdb \
   git \
+  gpg \
   lldb \
   llvm \
   meson \
