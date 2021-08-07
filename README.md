@@ -25,17 +25,11 @@ FROM ghcr.io/nnooney-docker/debian-c:main
   "build": {
     "dockerfile": "Dockerfile"
   },
-
-  // Set *default* container specific settings.json values on container create.
   "settings": {},
-
-  // Add the IDs of extensions you want installed when the container is created.
   "extensions": [
     "ms-vscode.cpptools"
   ],
-
-  // Comment out connect as root instead. More info: https://aka.ms/vscode-remote/containers/non-root.
-  "remoteUser": "coder"
+  "remoteUser": "developer"
 }
 ```
 
