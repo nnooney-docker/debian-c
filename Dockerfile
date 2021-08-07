@@ -14,5 +14,7 @@ RUN apt update && apt install -y -q --no-install-recommends \
   lldb \
   llvm \
   meson \
+  ssh \
   valgrind \
+  wget \
   && apt autoremove -y && apt clean -y
