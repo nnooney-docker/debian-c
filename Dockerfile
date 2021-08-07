@@ -1,4 +1,3 @@
-ARG USERNAME="coder"
 FROM ghcr.io/nnooney-docker/base-user:main
 
 LABEL maintainer="Nicholas Nooney <nicholasnooney@gmail.com>"
