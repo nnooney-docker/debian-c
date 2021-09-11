@@ -1,6 +1,6 @@
 # debian-c
 
-A Docker environment for developing using the C programming language
+A Docker environment for developing using the C/C++ programming language
 
 ## Images
 
